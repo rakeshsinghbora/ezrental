@@ -1,0 +1,248 @@
+body {
+  background-color: #3e3e3e;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.custom-color {
+  color: white;
+}
+
+/* Home */
+
+#home {
+  border-radius: 30px;
+  margin: 3% 5%;
+  height: 730px;
+  width: 90%;
+  background-color: white;
+}
+.homeimg {
+  width: 753px;
+  height: 633px;
+}
+
+.homeheadings > h1 {
+  font-family: "Cinzel", serif;
+  padding-top: 25%;
+  padding-left: 20%;
+  color: black;
+}
+.homeheadings > h3 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  padding-top: 2%;
+  color: black;
+
+  padding-left: 20%;
+}
+
+.homeheadings > hr {
+  margin-left: 40%;
+  width: 40%;
+  height: 3px;
+}
+
+.homebutton {
+  display: inline-block;
+}
+
+.custom-btn {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 4%;
+  padding-left: 36%;
+}
+
+.homecard {
+  background-color: black;
+  height: 150px;
+  width: 250px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 0;
+  text-align: center;
+  padding: 2% 2%;
+}
+.homecard > h2 {
+  font-size: 24px;
+}
+.homecard > img {
+  width: 150px;
+  height: 100px;
+}
+.homecardrow {
+  padding-left: 7%;
+}
+/* End Home */
+
+/* Vehicles */
+#vehicles {
+  margin: 2% 2%;
+  margin-top: 8%;
+  text-align: center;
+  color: rgb(230, 227, 227);
+}
+
+#vehicles > h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+#vehicles > p {
+  font-size: 1 rem;
+  font-weight: bolder;
+}
+#vehicles > h5 {
+  font-weight: bolder;
+}
+
+.vehicles-btn {
+  border-radius: 15px;
+  height: 38px;
+  width: 100px;
+}
+.vehicles-row {
+  padding: 2% 20%;
+}
+.Vehiclecardone {
+  padding: 2% 7%;
+}
+.carCardOne {
+  border-radius: 4%;
+  width: 350px;
+  height: 200px;
+}
+.Vehiclecardtwo {
+  padding: 0 13%;
+}
+.carCardTwo {
+  border-radius: 2%;
+  width: 230px;
+  height: 130px;
+}
+
+#showmore {
+  margin: 4% 2%;
+  width: 20%;
+  border-radius: 45px;
+}
+/* End Vehicles */
+
+/* Key Features */
+
+#keyfeatures {
+  text-align: left;
+  padding: 3% 7%;
+}
+
+#keyfeatures > h1 {
+  font-size: 4.5rem;
+  font-weight: bolder;
+  margin-top: 2%;
+}
+#keyfeatures > h2 {
+  width: 70%;
+  line-height: 1.2;
+  margin-top: 1%;
+}
+
+.featurecard {
+  margin-top: 5%;
+  width: 200px;
+  height: 250px;
+  border: 2px solid rgb(201, 198, 198);
+  border-radius: 10%;
+  text-align: left;
+}
+.featureimg {
+  width: 130px;
+  height: 100px;
+  margin: 2% 2%;
+}
+.featureh4 {
+  width: 180px;
+  margin: 144% 25%;
+  padding-right: 4%;
+  font-size: 20px;
+}
+/* End Key Features */
+
+/* Footer */
+
+#Footer {
+  background-image: url("./images/footer.png");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  width: 100%;
+  height: 600px;
+  margin-top: 6%;
+  color: rgb(223, 217, 217);
+  font-weight: normal;
+}
+
+#Footer > hr {
+  height: 2px;
+}
+
+#Footer > .row {
+  padding: 2% 10%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.footerh2 {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 1% 7%;
+  width: 160px;
+  font-size: 25px;
+}
+.footerh4 {
+  font-size: 20px;
+}
+
+.tophr {
+  width: 60%;
+}
+.bottomhr {
+  width: 40%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icon-margin {
+  margin-top: 2%;
+  margin-left: 9%;
+}
+.footericons {
+  width: 40px;
+  height: 40px;
+}
+
+.bootomcontentoffooter {
+  margin-top: 10%;
+}
+.footercard > h4,
+.footercard > h2 {
+  color: wheat;
+}
+
+.footercard > h5 {
+  width: 80%;
+}
+
+/* End Footer */
+
+/* About us */
+
+.About {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 4%;
+}
+
+.Aboutptag {
+  width: 90%;
+  color: rgb(216, 218, 219);
+}
+
+/*End About us */
+
+/* Contact us */
