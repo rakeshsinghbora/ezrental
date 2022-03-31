@@ -1,11 +1,17 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 
-function Button(props){
-    return(
-        <div className={props.divclassname}>
-        <buttton className={props.className} type={props.type} id={props.id}  >{props.name}</buttton>
-        </div>
-        )
+
+function Button(props) {
+    return (
+        <>
+            <div className={props.divclassname}>
+                <Link replace id="link" to={"/"+`${props.name}`}><buttton className={props.className} type={props.type} id={props.id}  >{props.name}</buttton>
+                </Link>
+            </div>
+            <Outlet />
+        </>
+    )
 }
 
 export default Button;

@@ -1,30 +1,32 @@
 import React from "react";
-import Button from "../Button/Button";
-import VehicleCard from "./VehicleCard"
-import VehicleFleetStarter from "./VehicleFleetStarter";
-function Vehicles() {
-    return (
-        <div>
-            <VehicleFleetStarter />
+import VehicleCard from "../VehicleCard";
+import Button from "../../Button/Button";
+import VehicleFleetStarter from "../VehicleFleetStarter";
 
-            <div className="row Vehiclecardone ms-2">
+function Supercar() {
+    return (
+        <>
+            <VehicleFleetStarter />
+            <div className="row Vehiclecardone">
                 <VehicleCard className="col-lg-4" imgClassName="carCardOne" url="/images/zachary.png" />
                 <VehicleCard className="col-lg-4" imgClassName="carCardOne" url="/images/brandon.png" />
                 <VehicleCard className="col-lg-4" imgClassName="carCardOne" url="/images/spencer.png" />
 
             </div>
-            <div className="row Vehiclecardtwo ms-2">
+            <div className="row Vehiclecardtwo">
                 <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/josh.png" />
                 <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/alec.png" />
                 <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/adrian.png" />
                 <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/aaron.png" />
 
             </div>
-            <div className="showmorebutton">
-                <Button className="btn btn-light btn-lg" name="Show More" type="submit" id="showmore" />
+            <div className="text-center">
+
+
+            <Button className="btn btn-light btn-lg text-center" name="Proceed" type="submit" id="showmore" />
             </div>
-        </div>
+        </>
     )
 }
 
-export default Vehicles; 
+export default Supercar;

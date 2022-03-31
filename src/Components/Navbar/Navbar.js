@@ -7,7 +7,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link className="navbar-brand ms-5 custom-color" to="/">ezRent</Link>
+                    <Link className="navbar-brand ms-5 custom-color" to="/"><img alt="Logo" src={process.env.PUBLIC_URL +"/images/ezRentals.png"} width="191" height="60" className="mt-3 ms-3 navlogo"/></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

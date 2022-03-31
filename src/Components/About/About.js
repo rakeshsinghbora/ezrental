@@ -3,10 +3,29 @@ import React from "react";
 
 function About() {
     return (
-        <div className="container-fluid About text-center mt-5">
-            <h3>About us</h3>
-            <p className="Aboutptag mt-5 ms-5">We are the best car rental website in India. We offer
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione similique animi ad placeat tempora eaque esse distinctio amet. Blanditiis dolores vero eos unde! Maxime, quod? Accusamus quas voluptate ipsum velit! Neque repellendus corporis vel in id. Fugiat vel earum possimus nesciunt in doloremque magnam voluptas qui inventore sint. Eos impedit nobis assumenda alias doloremque, eveniet dignissimos quia rem velit quasi dicta cum harum veniam modi pariatur, distinctio voluptate? Perferendis velit assumenda perspiciatis, accusantium provident obcaecati totam molestiae autem eligendi labore consequatur. Necessitatibus officiis dignissimos saepe labore fugit corporis animi illo dolorum voluptas, voluptates nostrum molestias expedita deserunt, eligendi ut unde iste odio reiciendis quibusdam laudantium fuga rem quisquam asperiores quasi. Ipsum pariatur quaerat at consequuntur vero odio, saepe eligendi ducimus dicta esse neque consectetur, modi consequatur molestias molestiae, repudiandae ipsam libero laboriosam magni quae repellendus? Voluptates soluta, dolore tempore amet, pariatur placeat eaque quisquam corrupti nostrum quam quatur, distinctio voluptate? Perferendis velit assumenda perspiciatis, accusantium provident obcaecati totam molestiae autem eligendi labore consequatur. Necessitatibus officiis dignissimos saepe labore fugit corporis animi illo dolorum voluptas, voluptates nostrum molestias expedita deserunt, eligendi ut unde iste odio reiciendis quibusdam laudantium fuga rem quisquam asperiores quasi. Ipsum pariatur quaerat at consequuntur vero odio, saepe eligendi ducimus dicta esse neque consectetur, modi consequatur molestias molestiae, repudiandae ipsam libero laboriosam magni quae repellendus? Voluptates soluta, dolore tempore amet, pariatur placeat eaque quisquam corrupti nostrum quam quod recusandae!</p>
+        <div >
+            <h1 className="container-fluid About text-center mt-5">About us</h1>
+            <p className="Aboutptag mt-5 ms-5">
+                We are the best car rental website in India. Car rental from EzRentals
+                provides the flexibility of having a car anytime you want, as well as
+                the assurance of a sanitized and virus free vehicle for your own self
+                drive. The car sanitization process encompasses all the preventive
+                hygiene best practices directed by the World Health Organization (WHO)
+                and is diligently conducted for each vehicle delivered to the car
+                subscribers. The safety measures that are implemented consist of:
+                <ul>
+                    <li>
+                        Industrial standards sanitization and disinfection before delivery
+                        for all surfaces of the vehicle
+                    </li>
+                    <li>
+                        Drivers wear Personal Protective Equipment (PPE) including masks and
+                        gloves while delivering the cars
+                    </li>
+                    <li>Paperless agreements for minimum contact</li>
+                    <li>Upon return, digital receipt sent to the customer’s e-mail.</li>
+                </ul>
+            </p>
         </div>
     )
 }

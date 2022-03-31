@@ -16,7 +16,7 @@ function Home() {
                     <hr/>
                     <div className="col-lg-12 custom-btn">
                        
-                       <Button className="btn btn-md btn-light ms-2"  divclassname="homebutton" name="Our Services" />
+                       <Button className="btn btn-md btn-primary ms-2"  divclassname="homebutton" name="Our Services" />
                        <Button className="btn btn-md btn-danger ms-2" name="Make a booking" divclassname="homebutton" />
                     </div>
                 </div>
