@@ -12,27 +12,30 @@ body {
 #home {
   border-radius: 30px;
   margin: 3% 5%;
-  height: 730px;
-  width: 90%;
+  height: 55vw;
+  width: 90vw;
   background-color: white;
 }
 .homeimg {
-  width: 753px;
-  height: 633px;
+  width: 50vw;
+  height: 50vw;
 }
 
 .homeheadings > h1 {
+  text-align: center;
+  font-size: 3vw;
   font-family: "Cinzel", serif;
   padding-top: 25%;
   padding-left: 20%;
   color: black;
 }
 .homeheadings > h3 {
+  text-align: center;
   font-family: "Cinzel", serif;
   text-align: center;
   padding-top: 2%;
   color: black;
-
+  font-size: 2vw;
   padding-left: 20%;
 }
 
@@ -44,18 +47,20 @@ body {
 
 .homebutton {
   display: inline-block;
+  font-size: 1.5vw;
 }
 
 .custom-btn {
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0 0;
   padding-top: 4%;
-  padding-left: 36%;
 }
 
 .homecard {
   background-color: #212529;
-  height: 150px;
-  width: 250px;
+  height: 12vw;
+  width: 18vw;
   color: white;
   border-radius: 10px;
   margin-top: 0;
@@ -63,11 +68,11 @@ body {
   padding: 2% 2%;
 }
 .homecard > h2 {
-  font-size: 24px;
+  font-size: 1.8vw;
 }
 .homecard > img {
-  width: 150px;
-  height: 100px;
+  width: 10vw;
+  height: 7vw;
 }
 .homecardrow {
   padding-left: 7%;
@@ -76,58 +81,66 @@ body {
 
 /* Vehicles */
 #vehicles {
-  margin: 2% 2%;
-  margin-top: 8%;
+  margin: 1vw 1vw;
+  margin-top: 11vw;
   text-align: center;
   color: rgb(230, 227, 227);
 }
 
 #vehicles > h1 {
-  font-size: 3.5rem;
+  font-size: 5vw;
   font-weight: bolder;
 }
 
 #vehicles > p {
-  font-size: 1 rem;
+  font-size: 1.6vw;
   font-weight: bolder;
 }
 #vehicles > h5 {
+  font-size: 2vw;
   font-weight: bolder;
 }
 
 .vehicles-btn {
-  border-radius: 15px;
-  height: 38px;
-  width: 100px;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 2.1vw;
+  height: 3vw;
+  width: 8vw;
+  font-size: 1.4vw;
+  padding: 2px 0;
 }
 .vehicles-row {
-  padding: 2% 20%;
+  padding: 1vw 22vw;
 }
 .Vehiclecardone {
-  padding: 2% 7%;
+  text-align:center;
+  padding: 1vw 7vw;
   width: 99%;
 }
 .carCardOne {
-  border-radius: 4%;
-  width: 350px;
-  height: 200px;
+  border-radius: 1vw;
+  width: 25vw;
+  height: 15vw;
 }
 .Vehiclecardtwo {
+  text-align:center;
   padding: 0 13%;
   width: 99%;
 }
 .carCardTwo {
   border-radius: 2%;
-  width: 230px;
-  height: 130px;
+  width: 16vw;
+  height: 10vw;
 }
 .showmorebutton {
   text-align: center;
 }
 #showmore {
-  margin: 4% 2%;
+  font-size: 1.7vw;
+  margin: 4vw 3vw;
   width: 20%;
-  border-radius: 45px;
+  border-radius: 4vw;
 }
 /* End Vehicles */
 
@@ -135,38 +148,40 @@ body {
 
 #keyfeatures {
   text-align: left;
-  padding: 3% 7%;
+  padding: 1vw 9vw;
 }
-
+#keyfeatures > h3{
+font-size: 2.3vw;
+}
 #keyfeatures > h1 {
-  font-size: 4.5rem;
+  font-size: 5vw;
   font-weight: bolder;
-  margin-top: 2%;
+  margin-top: 2vw;
 }
 #keyfeatures > h2 {
+  font-size: 3vw;
   width: 70%;
   line-height: 1.2;
-  margin-top: 1%;
+  margin-top: 1vw;
 }
 
 .featurecard {
   margin-top: 5%;
-  width: 200px;
-  height: 250px;
+  width: 14.6vw;
+  height: 18.3vw;
   border: 2px solid rgb(201, 198, 198);
   border-radius: 10%;
   text-align: left;
 }
 .featureimg {
-  width: 130px;
-  height: 100px;
-  margin: 2% 2%;
+  width: 9.5vw;
+  height: 7.3vw;
+  margin: 1vw 1vw;
 }
 .featureh4 {
-  width: 180px;
-  margin: 144% 25%;
-  padding-right: 4%;
-  font-size: 20px;
+  width: 13vw;
+  margin: 1vw 0;
+  font-size: 1.5vw;
 }
 /* End Key Features */
 
@@ -175,10 +190,10 @@ body {
 #Footer {
   background-image: url("./images/footer.png");
   background-repeat: no-repeat;
-  background-size: 100% 600px;
+  background-size: 100% 46vw;
   width: 100%;
-  height: 600px;
-  margin-top: 6%;
+  height: 46vw;
+  margin-top: 2vw;
   color: rgb(223, 217, 217);
   font-weight: normal;
 }
@@ -188,49 +203,52 @@ body {
 }
 
 #Footer > .row {
-  padding: 2% 10%;
+  padding: 2vw 10vw;
   margin-right: 0;
   margin-left: 0;
 }
 .footerh2 {
+  text-align: center;
   border: 2px solid white;
-  border-radius: 30px;
+  border-radius: 2vw;
   padding: 1% 7%;
-  width: 160px;
-  font-size: 25px;
+  width: 13vw;
+  font-size: 1.8vw;
 }
 .footerh4 {
-  font-size: 20px;
+  font-size: 1.6vw;
 }
 
 .tophr {
-  width: 60%;
+  width: 16vw;
 }
 .bottomhr {
-  width: 40%;
+  width: 10vw;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .icon-margin {
-  margin-top: 2%;
-  margin-left: 9%;
+  margin-top: 1vw;
+  margin-left: 9vw;
 }
 .footericons {
-  width: 40px;
-  height: 40px;
+  width: 3.2vw;
+  height: 3.2vw;
 }
 
 .bootomcontentoffooter {
-  margin-top: 10%;
+  margin-top: 11.2vw;
 }
 .footercard > h4,
 .footercard > h2 {
-  color: wheat;
+  color: rgb(243, 189, 90);
+  font-size:2.4vw ;
 }
 
 .footercard > h5 {
-  width: 80%;
+  width: 16vw;
+  font-size: 1.5vw;
 }
 
 /* End Footer */
@@ -251,13 +269,11 @@ body {
 
 /* Contact us */
 
-/* Media Queries */
 
-@media only screen and (max-width: 600px) {
-  .navlogo {
-    width: 150px;
-    height: 85px;
-  }
-}
+/* Our Services */
+#ourservices{
+  text-align: left;
+  padding: 3% 9%;
+} 
 
-/* End Media Queries */
+

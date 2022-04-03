@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet, Link } from "react-router-dom";
 
 
-function Button(props) {
+function Buttons(props) {
     return (
         <>
             <div className={props.divclassname}>
@@ -14,4 +14,4 @@ function Button(props) {
     )
 }
 
-export default Button;
+export default Buttons;

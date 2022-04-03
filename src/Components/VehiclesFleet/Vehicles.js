@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../Button/Buttons";
 import VehicleCard from "./VehicleCard"
 import VehicleFleetStarter from "./VehicleFleetStarter";
 function Vehicles() {
@@ -7,17 +7,17 @@ function Vehicles() {
         <div>
             <VehicleFleetStarter />
 
-            <div className="row Vehiclecardone ms-2">
-                <VehicleCard className="col-lg-4" imgClassName="carCardOne" url="/images/zachary.png" />
-                <VehicleCard className="col-lg-4" imgClassName="carCardOne" url="/images/brandon.png" />
-                <VehicleCard className="col-lg-4" imgClassName="carCardOne" url="/images/spencer.png" />
+            <div className="row Vehiclecardone ms-2 ">
+                <VehicleCard className="col-lg-4 col-md-4 col-sm-4 col-4" imgClassName="carCardOne" url="/images/Cars/zachary.png" />
+                <VehicleCard className="col-lg-4 col-md-4 col-sm-4 col-4" imgClassName="carCardOne" url="/images/Cars/brandon.png" />
+                <VehicleCard className="col-lg-4 col-md-4 col-sm-4 col-4" imgClassName="carCardOne" url="/images/Cars/spencer.png" />
 
             </div>
             <div className="row Vehiclecardtwo ms-2">
-                <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/josh.png" />
-                <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/alec.png" />
-                <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/adrian.png" />
-                <VehicleCard className="col-lg-3 col-md-6" imgClassName="carCardTwo" url="/images/aaron.png" />
+                <VehicleCard className="col-lg-3 col-md-3 col-sm-3 col-3" imgClassName="carCardTwo" url="/images/Cars/josh.png" />
+                <VehicleCard className="col-lg-3 col-md-3 col-sm-3 col-3" imgClassName="carCardTwo" url="/images/Cars/alec.png" />
+                <VehicleCard className="col-lg-3 col-md-3 col-sm-3 col-3" imgClassName="carCardTwo" url="/images/Cars/adrian.png" />
+                <VehicleCard className="col-lg-3 col-md-3 col-sm-3 col-3" imgClassName="carCardTwo" url="/images/Cars/aaron.png" />
 
             </div>
             <div className="showmorebutton">

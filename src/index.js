@@ -12,6 +12,7 @@ import Luxury from "./Components/VehiclesFleet/SelectedVehiclesGroup/Luxury";
 import Sports from "./Components/VehiclesFleet/SelectedVehiclesGroup/Sports";
 import Supercar from "./Components/VehiclesFleet/SelectedVehiclesGroup/Supercar";
 import ScrollToTop from "./ScrollToTop ";
+import Services from './Components/OurServices/Services';
 
 
 ReactDOM.render(
@@ -27,6 +28,8 @@ ReactDOM.render(
         <Route exact path="SuperCars" element={<Premium />} />
         <Route exact path="Luxury" element={<Sports />} />
         <Route exact path="Premium" element={<Supercar />} />
+        <Route exact path="Our%20Services" element={<Services/>} />
+
 
       </Routes>
       <Footer />
